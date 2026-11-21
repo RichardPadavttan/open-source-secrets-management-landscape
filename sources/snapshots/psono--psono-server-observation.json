@@ -1,0 +1,38 @@
+{
+  "repository": "psono/psono-server",
+  "checked_at": "2026-11-21T21:18:08.876977+08:00",
+  "revision": "b0b458bfd83d7bd0f2b10be4b5c766df1c2847e5",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/psono/psono-server.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nb0b458bfd83d7bd0f2b10be4b5c766df1c2847e5\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/psono/psono-server/b0b458bfd83d7bd0f2b10be4b5c766df1c2847e5/README.md",
+      "final_url": "https://raw.githubusercontent.com/psono/psono-server/b0b458bfd83d7bd0f2b10be4b5c766df1c2847e5/README.md",
+      "path": "sources/snapshots/psono--psono-server-readme.txt",
+      "sha256": "631d63d1a0f3c7fcb7ef784617514eafcedabaefdb5f31fb9ab45b6e0d007646",
+      "http_status": 200,
+      "line_count": 71,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/psono/psono-server/b0b458bfd83d7bd0f2b10be4b5c766df1c2847e5/LICENSE.md",
+      "final_url": "https://raw.githubusercontent.com/psono/psono-server/b0b458bfd83d7bd0f2b10be4b5c766df1c2847e5/LICENSE.md",
+      "path": "sources/snapshots/psono--psono-server-license.txt",
+      "sha256": "6297c1770eaf4a45d83760cc88a57d732efc2fc3c3119e1622f1a834247c0502",
+      "http_status": 200,
+      "line_count": 720,
+      "upstream_filename": "LICENSE.md"
+    }
+  ],
+  "failures": []
+}

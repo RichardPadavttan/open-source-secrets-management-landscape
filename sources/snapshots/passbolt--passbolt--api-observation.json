@@ -1,0 +1,38 @@
+{
+  "repository": "passbolt/passbolt_api",
+  "checked_at": "2026-11-21T21:17:55.867654+08:00",
+  "revision": "87281294c234653b9872b58e3bbcbab42493a71d",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/passbolt/passbolt_api.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n87281294c234653b9872b58e3bbcbab42493a71d\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/passbolt/passbolt_api/87281294c234653b9872b58e3bbcbab42493a71d/README.md",
+      "final_url": "https://raw.githubusercontent.com/passbolt/passbolt_api/87281294c234653b9872b58e3bbcbab42493a71d/README.md",
+      "path": "sources/snapshots/passbolt--passbolt--api-readme.txt",
+      "sha256": "bbf25b892549a1f0b161b94498473bb588e02ea718830342c401a72216f77f14",
+      "http_status": 200,
+      "line_count": 122,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/passbolt/passbolt_api/87281294c234653b9872b58e3bbcbab42493a71d/LICENSE.txt",
+      "final_url": "https://raw.githubusercontent.com/passbolt/passbolt_api/87281294c234653b9872b58e3bbcbab42493a71d/LICENSE.txt",
+      "path": "sources/snapshots/passbolt--passbolt--api-license.txt",
+      "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "LICENSE.txt"
+    }
+  ],
+  "failures": []
+}

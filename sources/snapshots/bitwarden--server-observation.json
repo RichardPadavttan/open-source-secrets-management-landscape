@@ -1,0 +1,38 @@
+{
+  "repository": "bitwarden/server",
+  "checked_at": "2026-11-21T21:17:54.400565+08:00",
+  "revision": "f0bcb2c70914f1e11a9b335e5c0bae59da599d48",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/bitwarden/server.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\nf0bcb2c70914f1e11a9b335e5c0bae59da599d48\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/bitwarden/server/f0bcb2c70914f1e11a9b335e5c0bae59da599d48/README.md",
+      "final_url": "https://raw.githubusercontent.com/bitwarden/server/f0bcb2c70914f1e11a9b335e5c0bae59da599d48/README.md",
+      "path": "sources/snapshots/bitwarden--server-readme.txt",
+      "sha256": "6bb0d5878a36822a5bd7051953aeceb1e22138007d49438a33ac001104573141",
+      "http_status": 200,
+      "line_count": 112,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/bitwarden/server/f0bcb2c70914f1e11a9b335e5c0bae59da599d48/LICENSE.txt",
+      "final_url": "https://raw.githubusercontent.com/bitwarden/server/f0bcb2c70914f1e11a9b335e5c0bae59da599d48/LICENSE.txt",
+      "path": "sources/snapshots/bitwarden--server-license.txt",
+      "sha256": "807613bbf6692e6809a571bc694a4719a5aa6863f7a62bd714003ab73de588e6",
+      "http_status": 200,
+      "line_count": 17,
+      "upstream_filename": "LICENSE.txt"
+    }
+  ],
+  "failures": []
+}

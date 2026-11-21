@@ -1,0 +1,38 @@
+{
+  "repository": "gopasspw/gopass",
+  "checked_at": "2026-11-21T21:18:15.706699+08:00",
+  "revision": "5f4d4032405055d6b842d3148b805950a97b2da6",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/gopasspw/gopass.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n5f4d4032405055d6b842d3148b805950a97b2da6\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/gopasspw/gopass/5f4d4032405055d6b842d3148b805950a97b2da6/README.md",
+      "final_url": "https://raw.githubusercontent.com/gopasspw/gopass/5f4d4032405055d6b842d3148b805950a97b2da6/README.md",
+      "path": "sources/snapshots/gopasspw--gopass-readme.txt",
+      "sha256": "142a1abd7958112703ecfda77b7a90c0fe30703ef77fd20755094b88f8df2c5b",
+      "http_status": 200,
+      "line_count": 236,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/gopasspw/gopass/5f4d4032405055d6b842d3148b805950a97b2da6/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/gopasspw/gopass/5f4d4032405055d6b842d3148b805950a97b2da6/LICENSE",
+      "path": "sources/snapshots/gopasspw--gopass-license.txt",
+      "sha256": "cc7596855388f462cdbdd740381c32fedf4077a1999551d895a69c14f5088a6b",
+      "http_status": 200,
+      "line_count": 9,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

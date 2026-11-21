@@ -1,0 +1,38 @@
+{
+  "repository": "dani-garcia/vaultwarden",
+  "checked_at": "2026-11-21T21:17:53.780769+08:00",
+  "revision": "baff1cabae39f55fd5111d0724d1389d08d00a63",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/dani-garcia/vaultwarden.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\nbaff1cabae39f55fd5111d0724d1389d08d00a63\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/baff1cabae39f55fd5111d0724d1389d08d00a63/README.md",
+      "final_url": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/baff1cabae39f55fd5111d0724d1389d08d00a63/README.md",
+      "path": "sources/snapshots/dani-garcia--vaultwarden-readme.txt",
+      "sha256": "5c7e29e287f600fe1979d196d53f94cd8f87f9c0de1acf6481fde510fbfdd4fc",
+      "http_status": 200,
+      "line_count": 147,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/baff1cabae39f55fd5111d0724d1389d08d00a63/LICENSE.txt",
+      "final_url": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/baff1cabae39f55fd5111d0724d1389d08d00a63/LICENSE.txt",
+      "path": "sources/snapshots/dani-garcia--vaultwarden-license.txt",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "LICENSE.txt"
+    }
+  ],
+  "failures": []
+}

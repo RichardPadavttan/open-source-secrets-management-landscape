@@ -1,0 +1,38 @@
+{
+  "repository": "cyberark/conjur",
+  "checked_at": "2026-11-21T21:18:18.160284+08:00",
+  "revision": "bfc444df74b7588d23b0ab8d4070e0b12e47ce80",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/cyberark/conjur.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nbfc444df74b7588d23b0ab8d4070e0b12e47ce80\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/cyberark/conjur/bfc444df74b7588d23b0ab8d4070e0b12e47ce80/README.md",
+      "final_url": "https://raw.githubusercontent.com/cyberark/conjur/bfc444df74b7588d23b0ab8d4070e0b12e47ce80/README.md",
+      "path": "sources/snapshots/cyberark--conjur-readme.txt",
+      "sha256": "eeaf2c66bfdeec9d8cf4287aca6221d2bd5174c8c79cf29ea73402578e7b64b5",
+      "http_status": 200,
+      "line_count": 210,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/cyberark/conjur/bfc444df74b7588d23b0ab8d4070e0b12e47ce80/LICENSE.md",
+      "final_url": "https://raw.githubusercontent.com/cyberark/conjur/bfc444df74b7588d23b0ab8d4070e0b12e47ce80/LICENSE.md",
+      "path": "sources/snapshots/cyberark--conjur-license.txt",
+      "sha256": "446e755fae55ff034bbb21be44670b5f116c2b2667947e7036f2bfe6632539a8",
+      "http_status": 200,
+      "line_count": 163,
+      "upstream_filename": "LICENSE.md"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "Infisical/infisical",
+  "checked_at": "2026-11-21T21:18:15.310559+08:00",
+  "revision": "ee6d61366304fa752d83216002f8bcde83e9955b",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/Infisical/infisical.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\nee6d61366304fa752d83216002f8bcde83e9955b\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/Infisical/infisical/ee6d61366304fa752d83216002f8bcde83e9955b/README.md",
+      "final_url": "https://raw.githubusercontent.com/Infisical/infisical/ee6d61366304fa752d83216002f8bcde83e9955b/README.md",
+      "path": "sources/snapshots/infisical--infisical-readme.txt",
+      "sha256": "977beaedaac4919c0b8720ae1de0708482f0f9d80e90aef459520a27a739f742",
+      "http_status": 200,
+      "line_count": 194,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/Infisical/infisical/ee6d61366304fa752d83216002f8bcde83e9955b/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/Infisical/infisical/ee6d61366304fa752d83216002f8bcde83e9955b/LICENSE",
+      "path": "sources/snapshots/infisical--infisical-license.txt",
+      "sha256": "ec701a993a5e14b71f1fc6ffb649ca6e704a2e3bc7d06fd5dd47f6334324cf8a",
+      "http_status": 200,
+      "line_count": 25,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "FiloSottile/age",
+  "checked_at": "2026-11-21T21:18:06.952756+08:00",
+  "revision": "b74dce4cdbe35b5e5f66c06d9612b72f89028758",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/FiloSottile/age.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\nb74dce4cdbe35b5e5f66c06d9612b72f89028758\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/FiloSottile/age/b74dce4cdbe35b5e5f66c06d9612b72f89028758/README.md",
+      "final_url": "https://raw.githubusercontent.com/FiloSottile/age/b74dce4cdbe35b5e5f66c06d9612b72f89028758/README.md",
+      "path": "sources/snapshots/filosottile--age-readme.txt",
+      "sha256": "2f715dd7ca55ffeadcca97392dd2f2e97078bc3e21b10a5999f86159f0c05450",
+      "http_status": 200,
+      "line_count": 325,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/FiloSottile/age/b74dce4cdbe35b5e5f66c06d9612b72f89028758/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/FiloSottile/age/b74dce4cdbe35b5e5f66c06d9612b72f89028758/LICENSE",
+      "path": "sources/snapshots/filosottile--age-license.txt",
+      "sha256": "c5d65279d02955c0fc2294ae417c3add650d228f4f5c82bd6d531fc26c89cd96",
+      "http_status": 200,
+      "line_count": 29,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

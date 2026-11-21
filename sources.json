@@ -1,0 +1,1178 @@
+{
+  "repository": "open-source-secrets-management-landscape",
+  "checked_on": "2026-11-21",
+  "language": "en",
+  "policy": "Commit-frozen original upstream documents with located short claims. HEAD availability is identity evidence, not a maintenance verdict.",
+  "sources": [
+    {
+      "name": "Vaultwarden",
+      "repository": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "clone_url": "https://github.com/dani-garcia/vaultwarden.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:53.780769+08:00",
+      "version_or_commit": "baff1cabae39f55fd5111d0724d1389d08d00a63",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/baff1cabae39f55fd5111d0724d1389d08d00a63/README.md",
+          "final_url": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/baff1cabae39f55fd5111d0724d1389d08d00a63/README.md",
+          "path": "sources/snapshots/dani-garcia--vaultwarden-readme.txt",
+          "sha256": "5c7e29e287f600fe1979d196d53f94cd8f87f9c0de1acf6481fde510fbfdd4fc",
+          "http_status": 200,
+          "line_count": 147,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/baff1cabae39f55fd5111d0724d1389d08d00a63/LICENSE.txt",
+          "final_url": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/baff1cabae39f55fd5111d0724d1389d08d00a63/LICENSE.txt",
+          "path": "sources/snapshots/dani-garcia--vaultwarden-license.txt",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "LICENSE.txt"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/dani-garcia/vaultwarden.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\nbaff1cabae39f55fd5111d0724d1389d08d00a63\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "dani-garcia--vaultwarden-axis-2",
+          "field": "decision_axis_2",
+          "statement": "An alternative server implementation of the Bitwarden Client API, written in Rust and compatible with official Bitwarden clients [disclaimer], perfect for self-hosted deployment where running the offi\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/baff1cabae39f55fd5111d0724d1389d08d00a63/README.md",
+          "version_or_commit": "baff1cabae39f55fd5111d0724d1389d08d00a63",
+          "checked_at": "2026-11-21T21:17:53.780769+08:00",
+          "snapshot_path": "sources/snapshots/dani-garcia--vaultwarden-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "An alternative server implementation of the Bitwarden Client API, written in Rust and compatible with [official Bitwarden clients](https://bitwarden.com/download/) [[disclaimer](#disclaimer)], perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "dani-garcia--vaultwarden-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Please note: We cannot be held liable for any data loss that may occur while using Vaultwarden. This includes passwords, attachments, and other information handled by the application. We highly recomm\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/baff1cabae39f55fd5111d0724d1389d08d00a63/README.md",
+          "version_or_commit": "baff1cabae39f55fd5111d0724d1389d08d00a63",
+          "checked_at": "2026-11-21T21:17:53.780769+08:00",
+          "snapshot_path": "sources/snapshots/dani-garcia--vaultwarden-readme.txt",
+          "line_start": 140,
+          "line_end": 140,
+          "upstream_excerpt": "**Please note:** We cannot be held liable for any data loss that may occur while using Vaultwarden. This includes passwords, attachments, and other information handled by the application. We highly recommend performing regular backups of your files and database. However, should you experience data loss, we encourage you to contact us immediately.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "dani-garcia--vaultwarden-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/baff1cabae39f55fd5111d0724d1389d08d00a63/LICENSE.txt",
+          "version_or_commit": "baff1cabae39f55fd5111d0724d1389d08d00a63",
+          "checked_at": "2026-11-21T21:17:53.780769+08:00",
+          "snapshot_path": "sources/snapshots/dani-garcia--vaultwarden-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/dani-garcia--vaultwarden-observation.json"
+    },
+    {
+      "name": "Bitwarden Server",
+      "repository": "bitwarden/server",
+      "url": "https://github.com/bitwarden/server",
+      "clone_url": "https://github.com/bitwarden/server.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:54.400565+08:00",
+      "version_or_commit": "f0bcb2c70914f1e11a9b335e5c0bae59da599d48",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/bitwarden/server/f0bcb2c70914f1e11a9b335e5c0bae59da599d48/README.md",
+          "final_url": "https://raw.githubusercontent.com/bitwarden/server/f0bcb2c70914f1e11a9b335e5c0bae59da599d48/README.md",
+          "path": "sources/snapshots/bitwarden--server-readme.txt",
+          "sha256": "6bb0d5878a36822a5bd7051953aeceb1e22138007d49438a33ac001104573141",
+          "http_status": 200,
+          "line_count": 112,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/bitwarden/server/f0bcb2c70914f1e11a9b335e5c0bae59da599d48/LICENSE.txt",
+          "final_url": "https://raw.githubusercontent.com/bitwarden/server/f0bcb2c70914f1e11a9b335e5c0bae59da599d48/LICENSE.txt",
+          "path": "sources/snapshots/bitwarden--server-license.txt",
+          "sha256": "807613bbf6692e6809a571bc694a4719a5aa6863f7a62bd714003ab73de588e6",
+          "http_status": 200,
+          "line_count": 17,
+          "upstream_filename": "LICENSE.txt"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/bitwarden/server.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\nf0bcb2c70914f1e11a9b335e5c0bae59da599d48\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "bitwarden--server-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Please refer to the Server Setup Guide in the Contributing Documentation for build instructions, recommended tooling, code style tips, and lots of other great information to get you started.",
+          "upstream_url": "https://raw.githubusercontent.com/bitwarden/server/f0bcb2c70914f1e11a9b335e5c0bae59da599d48/README.md",
+          "version_or_commit": "f0bcb2c70914f1e11a9b335e5c0bae59da599d48",
+          "checked_at": "2026-11-21T21:17:54.400565+08:00",
+          "snapshot_path": "sources/snapshots/bitwarden--server-readme.txt",
+          "line_start": 18,
+          "line_end": 18,
+          "upstream_excerpt": "Please refer to the [Server Setup Guide](https://contributing.bitwarden.com/getting-started/server/guide) in the [Contributing Documentation](https://contributing.bitwarden.com/) for build instructions, recommended tooling, code style tips, and lots of other great information to get you started.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "bitwarden--server-axis-3",
+          "field": "decision_axis_3",
+          "statement": "The Bitwarden Server project contains the APIs, database, and other core infrastructure items needed for the \"backend\" of all bitwarden client applications.",
+          "upstream_url": "https://raw.githubusercontent.com/bitwarden/server/f0bcb2c70914f1e11a9b335e5c0bae59da599d48/README.md",
+          "version_or_commit": "f0bcb2c70914f1e11a9b335e5c0bae59da599d48",
+          "checked_at": "2026-11-21T21:17:54.400565+08:00",
+          "snapshot_path": "sources/snapshots/bitwarden--server-readme.txt",
+          "line_start": 12,
+          "line_end": 12,
+          "upstream_excerpt": "The Bitwarden Server project contains the APIs, database, and other core infrastructure items needed for the \"backend\" of all bitwarden client applications.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "bitwarden--server-license",
+          "field": "license_model",
+          "statement": "mixed: AGPL-3.0 main server plus Bitwarden source-available licensed directories",
+          "upstream_url": "https://raw.githubusercontent.com/bitwarden/server/f0bcb2c70914f1e11a9b335e5c0bae59da599d48/LICENSE.txt",
+          "version_or_commit": "f0bcb2c70914f1e11a9b335e5c0bae59da599d48",
+          "checked_at": "2026-11-21T21:17:54.400565+08:00",
+          "snapshot_path": "sources/snapshots/bitwarden--server-license.txt",
+          "line_start": 1,
+          "line_end": 4,
+          "upstream_excerpt": "Source code in this repository is covered by one of two licenses: (i) the GNU\nAffero General Public License (AGPL) v3.0 (ii) the Bitwarden License v1.0. The\ndefault license throughout the repository is AGPL v3.0 unless the header\nspecifies another license. Bitwarden Licensed code is found only in the",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/bitwarden--server-observation.json"
+    },
+    {
+      "name": "Passbolt",
+      "repository": "passbolt/passbolt_api",
+      "url": "https://github.com/passbolt/passbolt_api",
+      "clone_url": "https://github.com/passbolt/passbolt_api.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:55.867654+08:00",
+      "version_or_commit": "87281294c234653b9872b58e3bbcbab42493a71d",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/passbolt/passbolt_api/87281294c234653b9872b58e3bbcbab42493a71d/README.md",
+          "final_url": "https://raw.githubusercontent.com/passbolt/passbolt_api/87281294c234653b9872b58e3bbcbab42493a71d/README.md",
+          "path": "sources/snapshots/passbolt--passbolt--api-readme.txt",
+          "sha256": "bbf25b892549a1f0b161b94498473bb588e02ea718830342c401a72216f77f14",
+          "http_status": 200,
+          "line_count": 122,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/passbolt/passbolt_api/87281294c234653b9872b58e3bbcbab42493a71d/LICENSE.txt",
+          "final_url": "https://raw.githubusercontent.com/passbolt/passbolt_api/87281294c234653b9872b58e3bbcbab42493a71d/LICENSE.txt",
+          "path": "sources/snapshots/passbolt--passbolt--api-license.txt",
+          "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "LICENSE.txt"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/passbolt/passbolt_api.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n87281294c234653b9872b58e3bbcbab42493a71d\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "passbolt--passbolt--api-axis-1",
+          "field": "decision_axis_1",
+          "statement": "The open source password manager for teams.",
+          "upstream_url": "https://raw.githubusercontent.com/passbolt/passbolt_api/87281294c234653b9872b58e3bbcbab42493a71d/README.md",
+          "version_or_commit": "87281294c234653b9872b58e3bbcbab42493a71d",
+          "checked_at": "2026-11-21T21:17:55.867654+08:00",
+          "snapshot_path": "sources/snapshots/passbolt--passbolt--api-readme.txt",
+          "line_start": 9,
+          "line_end": 9,
+          "upstream_excerpt": "The open source password manager for teams.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "passbolt--passbolt--api-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- Security: Passbolt security model features user-owned secret keys and end-to-end encryption. It is audited multiple times annually, and findings are made public.",
+          "upstream_url": "https://raw.githubusercontent.com/passbolt/passbolt_api/87281294c234653b9872b58e3bbcbab42493a71d/README.md",
+          "version_or_commit": "87281294c234653b9872b58e3bbcbab42493a71d",
+          "checked_at": "2026-11-21T21:17:55.867654+08:00",
+          "snapshot_path": "sources/snapshots/passbolt--passbolt--api-readme.txt",
+          "line_start": 43,
+          "line_end": 43,
+          "upstream_excerpt": "- **Security:** Passbolt security model features user-owned secret keys and end-to-end encryption. It is audited multiple times annually, and [findings](https://help.passbolt.com/faq/security/code-review) are made public.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "passbolt--passbolt--api-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Security: Passbolt security model features user-owned secret keys and end-to-end encryption. It is audited multiple times annually, and findings are made public.",
+          "upstream_url": "https://raw.githubusercontent.com/passbolt/passbolt_api/87281294c234653b9872b58e3bbcbab42493a71d/README.md",
+          "version_or_commit": "87281294c234653b9872b58e3bbcbab42493a71d",
+          "checked_at": "2026-11-21T21:17:55.867654+08:00",
+          "snapshot_path": "sources/snapshots/passbolt--passbolt--api-readme.txt",
+          "line_start": 43,
+          "line_end": 43,
+          "upstream_excerpt": "- **Security:** Passbolt security model features user-owned secret keys and end-to-end encryption. It is audited multiple times annually, and [findings](https://help.passbolt.com/faq/security/code-review) are made public.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "passbolt--passbolt--api-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0 with trademark reservation",
+          "upstream_url": "https://raw.githubusercontent.com/passbolt/passbolt_api/87281294c234653b9872b58e3bbcbab42493a71d/LICENSE.txt",
+          "version_or_commit": "87281294c234653b9872b58e3bbcbab42493a71d",
+          "checked_at": "2026-11-21T21:17:55.867654+08:00",
+          "snapshot_path": "sources/snapshots/passbolt--passbolt--api-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/passbolt--passbolt--api-observation.json"
+    },
+    {
+      "name": "SOPS",
+      "repository": "getsops/sops",
+      "url": "https://github.com/getsops/sops",
+      "clone_url": "https://github.com/getsops/sops.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:18:00.075569+08:00",
+      "version_or_commit": "9aa10f12bcd82400b7eb73331dd7a87a93bb17f7",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/getsops/sops/9aa10f12bcd82400b7eb73331dd7a87a93bb17f7/README.rst",
+          "final_url": "https://raw.githubusercontent.com/getsops/sops/9aa10f12bcd82400b7eb73331dd7a87a93bb17f7/README.rst",
+          "path": "sources/snapshots/getsops--sops-readme.txt",
+          "sha256": "63cb0a462ce23574365c0b692aa09ea2f632f4b4df2b5f4186d8c004b57e3440",
+          "http_status": 200,
+          "line_count": 60,
+          "upstream_filename": "README.rst"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/getsops/sops/9aa10f12bcd82400b7eb73331dd7a87a93bb17f7/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/getsops/sops/9aa10f12bcd82400b7eb73331dd7a87a93bb17f7/LICENSE",
+          "path": "sources/snapshots/getsops--sops-license.txt",
+          "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+          "http_status": 200,
+          "line_count": 373,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/getsops/sops.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n9aa10f12bcd82400b7eb73331dd7a87a93bb17f7\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "getsops--sops-axis-1",
+          "field": "decision_axis_1",
+          "statement": "SOPS is an editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY",
+          "upstream_url": "https://raw.githubusercontent.com/getsops/sops/9aa10f12bcd82400b7eb73331dd7a87a93bb17f7/README.rst",
+          "version_or_commit": "9aa10f12bcd82400b7eb73331dd7a87a93bb17f7",
+          "checked_at": "2026-11-21T21:18:00.075569+08:00",
+          "snapshot_path": "sources/snapshots/getsops--sops-readme.txt",
+          "line_start": 4,
+          "line_end": 4,
+          "upstream_excerpt": "**SOPS** is an editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "getsops--sops-license",
+          "field": "license_model",
+          "statement": "MPL-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/getsops/sops/9aa10f12bcd82400b7eb73331dd7a87a93bb17f7/LICENSE",
+          "version_or_commit": "9aa10f12bcd82400b7eb73331dd7a87a93bb17f7",
+          "checked_at": "2026-11-21T21:18:00.075569+08:00",
+          "snapshot_path": "sources/snapshots/getsops--sops-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "Mozilla Public License Version 2.0\n==================================\n\n1. Definitions\n--------------\n\n1.1. \"Contributor\"\n    means each individual or legal entity that creates, contributes to\n    the creation of, or owns Covered Software.\n\n1.2. \"Contributor Version\"\n    means the combination of the Contributions of others (if any) used",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/getsops--sops-observation.json"
+    },
+    {
+      "name": "age",
+      "repository": "FiloSottile/age",
+      "url": "https://github.com/FiloSottile/age",
+      "clone_url": "https://github.com/FiloSottile/age.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:18:06.952756+08:00",
+      "version_or_commit": "b74dce4cdbe35b5e5f66c06d9612b72f89028758",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/FiloSottile/age/b74dce4cdbe35b5e5f66c06d9612b72f89028758/README.md",
+          "final_url": "https://raw.githubusercontent.com/FiloSottile/age/b74dce4cdbe35b5e5f66c06d9612b72f89028758/README.md",
+          "path": "sources/snapshots/filosottile--age-readme.txt",
+          "sha256": "2f715dd7ca55ffeadcca97392dd2f2e97078bc3e21b10a5999f86159f0c05450",
+          "http_status": 200,
+          "line_count": 325,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/FiloSottile/age/b74dce4cdbe35b5e5f66c06d9612b72f89028758/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/FiloSottile/age/b74dce4cdbe35b5e5f66c06d9612b72f89028758/LICENSE",
+          "path": "sources/snapshots/filosottile--age-license.txt",
+          "sha256": "c5d65279d02955c0fc2294ae417c3add650d228f4f5c82bd6d531fc26c89cd96",
+          "http_status": 200,
+          "line_count": 29,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/FiloSottile/age.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\nb74dce4cdbe35b5e5f66c06d9612b72f89028758\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "filosottile--age-axis-2",
+          "field": "decision_axis_2",
+          "statement": "It features small explicit keys, post-quantum support, no config options, and UNIX-style composability.",
+          "upstream_url": "https://raw.githubusercontent.com/FiloSottile/age/b74dce4cdbe35b5e5f66c06d9612b72f89028758/README.md",
+          "version_or_commit": "b74dce4cdbe35b5e5f66c06d9612b72f89028758",
+          "checked_at": "2026-11-21T21:18:06.952756+08:00",
+          "snapshot_path": "sources/snapshots/filosottile--age-readme.txt",
+          "line_start": 16,
+          "line_end": 16,
+          "upstream_excerpt": "It features small explicit keys, post-quantum support, no config options, and UNIX-style composability.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "filosottile--age-axis-3",
+          "field": "decision_axis_3",
+          "statement": "It features small explicit keys, post-quantum support, no config options, and UNIX-style composability.",
+          "upstream_url": "https://raw.githubusercontent.com/FiloSottile/age/b74dce4cdbe35b5e5f66c06d9612b72f89028758/README.md",
+          "version_or_commit": "b74dce4cdbe35b5e5f66c06d9612b72f89028758",
+          "checked_at": "2026-11-21T21:18:06.952756+08:00",
+          "snapshot_path": "sources/snapshots/filosottile--age-readme.txt",
+          "line_start": 16,
+          "line_end": 16,
+          "upstream_excerpt": "It features small explicit keys, post-quantum support, no config options, and UNIX-style composability.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "filosottile--age-license",
+          "field": "license_model",
+          "statement": "BSD-3-Clause",
+          "upstream_url": "https://raw.githubusercontent.com/FiloSottile/age/b74dce4cdbe35b5e5f66c06d9612b72f89028758/LICENSE",
+          "version_or_commit": "b74dce4cdbe35b5e5f66c06d9612b72f89028758",
+          "checked_at": "2026-11-21T21:18:06.952756+08:00",
+          "snapshot_path": "sources/snapshots/filosottile--age-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "Copyright 2019 The age Authors\nCopyright 2019 Google LLC\nCopyright 2022 Filippo Valsorda\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are\nmet:\n\n   * Redistributions of source code must retain the above copyright\nnotice, this list of conditions and the following disclaimer.\n   * Redistributions in binary form must reproduce the above\ncopyright notice, this list of conditions and the following disclaimer",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "filosottile-age-curated-1",
+          "field": "decision_axis_1",
+          "statement": "File-encryption primitive with caller-managed ciphertext and keys",
+          "upstream_url": "https://raw.githubusercontent.com/FiloSottile/age/b74dce4cdbe35b5e5f66c06d9612b72f89028758/README.md",
+          "version_or_commit": "b74dce4cdbe35b5e5f66c06d9612b72f89028758",
+          "checked_at": "2026-11-21T21:18:06.952756+08:00",
+          "snapshot_path": "sources/snapshots/filosottile--age-readme.txt",
+          "line_start": 14,
+          "line_end": 14,
+          "upstream_excerpt": "age is a simple, modern and secure file encryption tool, format, and Go library.",
+          "review_result": "manually_located_supporting_declaration",
+          "verification_scope": "upstream declaration only"
+        }
+      ],
+      "evidence_record": "sources/snapshots/filosottile--age-observation.json"
+    },
+    {
+      "name": "OpenBao",
+      "repository": "openbao/openbao",
+      "url": "https://github.com/openbao/openbao",
+      "clone_url": "https://github.com/openbao/openbao.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:18:07.344239+08:00",
+      "version_or_commit": "a943844dae65dcdaa031cd739b7545250578693d",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/openbao/openbao/a943844dae65dcdaa031cd739b7545250578693d/README.md",
+          "final_url": "https://raw.githubusercontent.com/openbao/openbao/a943844dae65dcdaa031cd739b7545250578693d/README.md",
+          "path": "sources/snapshots/openbao--openbao-readme.txt",
+          "sha256": "d0cff252352ee71e85b9bbca2d7567fe980d8579497f40280d0833a0170ea8b3",
+          "http_status": 200,
+          "line_count": 143,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/openbao/openbao/a943844dae65dcdaa031cd739b7545250578693d/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/openbao/openbao/a943844dae65dcdaa031cd739b7545250578693d/LICENSE",
+          "path": "sources/snapshots/openbao--openbao-license.txt",
+          "sha256": "d6b1a865f1c8c697d343bd4e0ce61025f91898486a1f00d727f32e8644af77d3",
+          "http_status": 200,
+          "line_count": 365,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/openbao/openbao.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\na943844dae65dcdaa031cd739b7545250578693d\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "openbao--openbao-axis-1",
+          "field": "decision_axis_1",
+          "statement": "OpenBao is a software solution to manage, store, and distribute sensitive",
+          "upstream_url": "https://raw.githubusercontent.com/openbao/openbao/a943844dae65dcdaa031cd739b7545250578693d/README.md",
+          "version_or_commit": "a943844dae65dcdaa031cd739b7545250578693d",
+          "checked_at": "2026-11-21T21:18:07.344239+08:00",
+          "snapshot_path": "sources/snapshots/openbao--openbao-readme.txt",
+          "line_start": 33,
+          "line_end": 33,
+          "upstream_excerpt": "**OpenBao is a software solution to manage, store, and distribute sensitive",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "openbao--openbao-axis-2",
+          "field": "decision_axis_2",
+          "statement": "OpenBao is a software solution to manage, store, and distribute sensitive",
+          "upstream_url": "https://raw.githubusercontent.com/openbao/openbao/a943844dae65dcdaa031cd739b7545250578693d/README.md",
+          "version_or_commit": "a943844dae65dcdaa031cd739b7545250578693d",
+          "checked_at": "2026-11-21T21:18:07.344239+08:00",
+          "snapshot_path": "sources/snapshots/openbao--openbao-readme.txt",
+          "line_start": 33,
+          "line_end": 33,
+          "upstream_excerpt": "**OpenBao is a software solution to manage, store, and distribute sensitive",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "openbao--openbao-axis-3",
+          "field": "decision_axis_3",
+          "statement": "data including secrets, certificates, and keys. The OpenBao community intends to provide this software under an OSI-approved open-source license, led by a community run under open-governance principle\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/openbao/openbao/a943844dae65dcdaa031cd739b7545250578693d/README.md",
+          "version_or_commit": "a943844dae65dcdaa031cd739b7545250578693d",
+          "checked_at": "2026-11-21T21:18:07.344239+08:00",
+          "snapshot_path": "sources/snapshots/openbao--openbao-readme.txt",
+          "line_start": 34,
+          "line_end": 36,
+          "upstream_excerpt": "data including secrets, certificates, and keys. The OpenBao community intends\nto provide this software under an OSI-approved open-source license, led by a\ncommunity run under open-governance principles.**",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "openbao--openbao-license",
+          "field": "license_model",
+          "statement": "MPL-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/openbao/openbao/a943844dae65dcdaa031cd739b7545250578693d/LICENSE",
+          "version_or_commit": "a943844dae65dcdaa031cd739b7545250578693d",
+          "checked_at": "2026-11-21T21:18:07.344239+08:00",
+          "snapshot_path": "sources/snapshots/openbao--openbao-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "Copyright (c) 2015 HashiCorp, Inc.\n\nMozilla Public License, version 2.0\n\n1. Definitions\n\n1.1. \"Contributor\"\n\n     means each individual or legal entity that creates, contributes to the\n     creation of, or owns Covered Software.\n\n1.2. \"Contributor Version\"",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/openbao--openbao-observation.json"
+    },
+    {
+      "name": "Infisical",
+      "repository": "Infisical/infisical",
+      "url": "https://github.com/Infisical/infisical",
+      "clone_url": "https://github.com/Infisical/infisical.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:18:15.310559+08:00",
+      "version_or_commit": "ee6d61366304fa752d83216002f8bcde83e9955b",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/Infisical/infisical/ee6d61366304fa752d83216002f8bcde83e9955b/README.md",
+          "final_url": "https://raw.githubusercontent.com/Infisical/infisical/ee6d61366304fa752d83216002f8bcde83e9955b/README.md",
+          "path": "sources/snapshots/infisical--infisical-readme.txt",
+          "sha256": "977beaedaac4919c0b8720ae1de0708482f0f9d80e90aef459520a27a739f742",
+          "http_status": 200,
+          "line_count": 194,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/Infisical/infisical/ee6d61366304fa752d83216002f8bcde83e9955b/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/Infisical/infisical/ee6d61366304fa752d83216002f8bcde83e9955b/LICENSE",
+          "path": "sources/snapshots/infisical--infisical-license.txt",
+          "sha256": "ec701a993a5e14b71f1fc6ffb649ca6e704a2e3bc7d06fd5dd47f6334324cf8a",
+          "http_status": 200,
+          "line_count": 25,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/Infisical/infisical.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\nee6d61366304fa752d83216002f8bcde83e9955b\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "infisical--infisical-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Infisical is the open source security infrastructure platform that teams use for secrets, certificates, privileged access management, and AI agent access.",
+          "upstream_url": "https://raw.githubusercontent.com/Infisical/infisical/ee6d61366304fa752d83216002f8bcde83e9955b/README.md",
+          "version_or_commit": "ee6d61366304fa752d83216002f8bcde83e9955b",
+          "checked_at": "2026-11-21T21:18:15.310559+08:00",
+          "snapshot_path": "sources/snapshots/infisical--infisical-readme.txt",
+          "line_start": 40,
+          "line_end": 40,
+          "upstream_excerpt": "**[Infisical](https://infisical.com)** is the open source security infrastructure platform that teams use for secrets, certificates, privileged access management, and AI agent access.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "infisical--infisical-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- Dynamic Secrets: Generate ephemeral secrets on-demand for services like PostgreSQL, MySQL, RabbitMQ, and more.",
+          "upstream_url": "https://raw.githubusercontent.com/Infisical/infisical/ee6d61366304fa752d83216002f8bcde83e9955b/README.md",
+          "version_or_commit": "ee6d61366304fa752d83216002f8bcde83e9955b",
+          "checked_at": "2026-11-21T21:18:15.310559+08:00",
+          "snapshot_path": "sources/snapshots/infisical--infisical-readme.txt",
+          "line_start": 54,
+          "line_end": 54,
+          "upstream_excerpt": "- **[Dynamic Secrets](https://infisical.com/docs/documentation/platform/dynamic-secrets/overview)**: Generate ephemeral secrets on-demand for services like [PostgreSQL](https://infisical.com/docs/documentation/platform/dynamic-secrets/postgresql), [MySQL](https://infisical.com/docs/documentation/platform/dynamic-secrets/mysql), [RabbitMQ](https://infisical.com/docs/documentation/platform/dynamic-secrets/rabbit-mq), and more.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "infisical--infisical-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Keep cryptographic keys in Infisical and use them through the API, so your applications never hold the keys.",
+          "upstream_url": "https://raw.githubusercontent.com/Infisical/infisical/ee6d61366304fa752d83216002f8bcde83e9955b/README.md",
+          "version_or_commit": "ee6d61366304fa752d83216002f8bcde83e9955b",
+          "checked_at": "2026-11-21T21:18:15.310559+08:00",
+          "snapshot_path": "sources/snapshots/infisical--infisical-readme.txt",
+          "line_start": 81,
+          "line_end": 81,
+          "upstream_excerpt": "Keep cryptographic keys in Infisical and use them through the API, so your applications never hold the keys.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "infisical--infisical-license",
+          "field": "license_model",
+          "statement": "MIT except separately licensed ee directories",
+          "upstream_url": "https://raw.githubusercontent.com/Infisical/infisical/ee6d61366304fa752d83216002f8bcde83e9955b/LICENSE",
+          "version_or_commit": "ee6d61366304fa752d83216002f8bcde83e9955b",
+          "checked_at": "2026-11-21T21:18:15.310559+08:00",
+          "snapshot_path": "sources/snapshots/infisical--infisical-license.txt",
+          "line_start": 1,
+          "line_end": 25,
+          "upstream_excerpt": "Copyright (c) 2022 Infisical Inc.\n\nPortions of this software are licensed as follows:\n\n- All content that resides under any \"ee/\" directory of this repository, if such directories exists, are licensed under the license defined in \"ee/LICENSE\".\n- All third party components incorporated into the Infisical Software are licensed under the original license provided by the owner of the applicable component.\n- Content outside of the above mentioned directories or restrictions above is available under the \"MIT Expat\" license as defined below.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/infisical--infisical-observation.json"
+    },
+    {
+      "name": "Psono",
+      "repository": "psono/psono-server",
+      "url": "https://github.com/psono/psono-server",
+      "clone_url": "https://github.com/psono/psono-server.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:18:08.876977+08:00",
+      "version_or_commit": "b0b458bfd83d7bd0f2b10be4b5c766df1c2847e5",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/psono/psono-server/b0b458bfd83d7bd0f2b10be4b5c766df1c2847e5/README.md",
+          "final_url": "https://raw.githubusercontent.com/psono/psono-server/b0b458bfd83d7bd0f2b10be4b5c766df1c2847e5/README.md",
+          "path": "sources/snapshots/psono--psono-server-readme.txt",
+          "sha256": "631d63d1a0f3c7fcb7ef784617514eafcedabaefdb5f31fb9ab45b6e0d007646",
+          "http_status": 200,
+          "line_count": 71,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/psono/psono-server/b0b458bfd83d7bd0f2b10be4b5c766df1c2847e5/LICENSE.md",
+          "final_url": "https://raw.githubusercontent.com/psono/psono-server/b0b458bfd83d7bd0f2b10be4b5c766df1c2847e5/LICENSE.md",
+          "path": "sources/snapshots/psono--psono-server-license.txt",
+          "sha256": "6297c1770eaf4a45d83760cc88a57d732efc2fc3c3119e1622f1a834247c0502",
+          "http_status": 200,
+          "line_count": 720,
+          "upstream_filename": "LICENSE.md"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/psono/psono-server.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nb0b458bfd83d7bd0f2b10be4b5c766df1c2847e5\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "psono--psono-server-axis-1",
+          "field": "decision_axis_1",
+          "statement": "settings.yaml file as it contains some secrets necessary to decrypt the data in your database. We have created two little scripts to backup and restore your files in var/backup",
+          "upstream_url": "https://raw.githubusercontent.com/psono/psono-server/b0b458bfd83d7bd0f2b10be4b5c766df1c2847e5/README.md",
+          "version_or_commit": "b0b458bfd83d7bd0f2b10be4b5c766df1c2847e5",
+          "checked_at": "2026-11-21T21:18:08.876977+08:00",
+          "snapshot_path": "sources/snapshots/psono--psono-server-readme.txt",
+          "line_start": 21,
+          "line_end": 22,
+          "upstream_excerpt": "settings.yaml file as it contains some secrets necessary to decrypt the data in your database.\nWe have created two little scripts to backup and restore your files in var/backup",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "psono--psono-server-axis-3",
+          "field": "decision_axis_3",
+          "statement": "For a full backup, you have to backup two things. First thing obviously is the database, and the second thing is your settings.yaml file as it contains some secrets necessary to decrypt the data in yo\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/psono/psono-server/b0b458bfd83d7bd0f2b10be4b5c766df1c2847e5/README.md",
+          "version_or_commit": "b0b458bfd83d7bd0f2b10be4b5c766df1c2847e5",
+          "checked_at": "2026-11-21T21:18:08.876977+08:00",
+          "snapshot_path": "sources/snapshots/psono--psono-server-readme.txt",
+          "line_start": 20,
+          "line_end": 22,
+          "upstream_excerpt": "For a full backup, you have to backup two things. First thing obviously is the database, and the second thing is your\nsettings.yaml file as it contains some secrets necessary to decrypt the data in your database.\nWe have created two little scripts to backup and restore your files in var/backup",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "psono--psono-server-license",
+          "field": "license_model",
+          "statement": "Apache-2.0 core; verify enterprise modules separately",
+          "upstream_url": "https://raw.githubusercontent.com/psono/psono-server/b0b458bfd83d7bd0f2b10be4b5c766df1c2847e5/LICENSE.md",
+          "version_or_commit": "b0b458bfd83d7bd0f2b10be4b5c766df1c2847e5",
+          "checked_at": "2026-11-21T21:18:08.876977+08:00",
+          "snapshot_path": "sources/snapshots/psono--psono-server-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "# License:\n\n\tCopyright 2017 Sascha Seitz\n\n\tLicensed under the Apache License, Version 2.0 (the \"License\");\n\tyou may not use this file except in compliance with the License.\n\tYou may obtain a copy of the License at\n\n\t    http://www.apache.org/licenses/LICENSE-2.0\n\n\tUnless required by applicable law or agreed to in writing, software\n\tdistributed under the License is distributed on an \"AS IS\" BASIS,",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/psono--psono-server-observation.json"
+    },
+    {
+      "name": "Sealed Secrets",
+      "repository": "bitnami/sealed-secrets",
+      "url": "https://github.com/bitnami/sealed-secrets",
+      "clone_url": "https://github.com/bitnami/sealed-secrets.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:18:11.904631+08:00",
+      "version_or_commit": "53625dfe02d8e807122f08f53fd6d9ee774b131b",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/bitnami/sealed-secrets/53625dfe02d8e807122f08f53fd6d9ee774b131b/README.md",
+          "final_url": "https://raw.githubusercontent.com/bitnami/sealed-secrets/53625dfe02d8e807122f08f53fd6d9ee774b131b/README.md",
+          "path": "sources/snapshots/bitnami--sealed-secrets-readme.txt",
+          "sha256": "0f897df3f887367b899a5a9e552e3bf9bc74378b94534e79988a3457c6623c5d",
+          "http_status": 200,
+          "line_count": 885,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/bitnami/sealed-secrets/53625dfe02d8e807122f08f53fd6d9ee774b131b/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/bitnami/sealed-secrets/53625dfe02d8e807122f08f53fd6d9ee774b131b/LICENSE",
+          "path": "sources/snapshots/bitnami--sealed-secrets-license.txt",
+          "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+          "http_status": 200,
+          "line_count": 201,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/bitnami/sealed-secrets.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n53625dfe02d8e807122f08f53fd6d9ee774b131b\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "bitnami--sealed-secrets-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Problem: \"I can manage all my K8s config in git, except Secrets.\"",
+          "upstream_url": "https://raw.githubusercontent.com/bitnami/sealed-secrets/53625dfe02d8e807122f08f53fd6d9ee774b131b/README.md",
+          "version_or_commit": "53625dfe02d8e807122f08f53fd6d9ee774b131b",
+          "checked_at": "2026-11-21T21:18:11.904631+08:00",
+          "snapshot_path": "sources/snapshots/bitnami--sealed-secrets-readme.txt",
+          "line_start": 13,
+          "line_end": 13,
+          "upstream_excerpt": "**Problem:** \"I can manage all my K8s config in git, except Secrets.\"",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "bitnami--sealed-secrets-axis-2",
+          "field": "decision_axis_2",
+          "statement": "decrypted only by the controller running in the target cluster and nobody else (not even the original author) is able to obtain the original Secret from the SealedSecret.",
+          "upstream_url": "https://raw.githubusercontent.com/bitnami/sealed-secrets/53625dfe02d8e807122f08f53fd6d9ee774b131b/README.md",
+          "version_or_commit": "53625dfe02d8e807122f08f53fd6d9ee774b131b",
+          "checked_at": "2026-11-21T21:18:11.904631+08:00",
+          "snapshot_path": "sources/snapshots/bitnami--sealed-secrets-readme.txt",
+          "line_start": 17,
+          "line_end": 19,
+          "upstream_excerpt": "decrypted only by the controller running in the target cluster and\nnobody else (not even the original author) is able to obtain the\noriginal Secret from the SealedSecret.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "bitnami--sealed-secrets-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- SealedSecrets as templates for secrets - Public key / Certificate",
+          "upstream_url": "https://raw.githubusercontent.com/bitnami/sealed-secrets/53625dfe02d8e807122f08f53fd6d9ee774b131b/README.md",
+          "version_or_commit": "53625dfe02d8e807122f08f53fd6d9ee774b131b",
+          "checked_at": "2026-11-21T21:18:11.904631+08:00",
+          "snapshot_path": "sources/snapshots/bitnami--sealed-secrets-readme.txt",
+          "line_start": 26,
+          "line_end": 27,
+          "upstream_excerpt": "  - [SealedSecrets as templates for secrets](#sealedsecrets-as-templates-for-secrets)\n  - [Public key / Certificate](#public-key--certificate)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "bitnami--sealed-secrets-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/bitnami/sealed-secrets/53625dfe02d8e807122f08f53fd6d9ee774b131b/LICENSE",
+          "version_or_commit": "53625dfe02d8e807122f08f53fd6d9ee774b131b",
+          "checked_at": "2026-11-21T21:18:11.904631+08:00",
+          "snapshot_path": "sources/snapshots/bitnami--sealed-secrets-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/bitnami--sealed-secrets-observation.json"
+    },
+    {
+      "name": "External Secrets Operator",
+      "repository": "external-secrets/external-secrets",
+      "url": "https://github.com/external-secrets/external-secrets",
+      "clone_url": "https://github.com/external-secrets/external-secrets.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:18:14.227437+08:00",
+      "version_or_commit": "96634cd3c5949acb12dcd7cea7302b28527c5676",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/external-secrets/external-secrets/96634cd3c5949acb12dcd7cea7302b28527c5676/README.md",
+          "final_url": "https://raw.githubusercontent.com/external-secrets/external-secrets/96634cd3c5949acb12dcd7cea7302b28527c5676/README.md",
+          "path": "sources/snapshots/external-secrets--external-secrets-readme.txt",
+          "sha256": "626e0f1fed2dd13ecce9eb07287f28425fa49c0259c36c15b652282500e6b93a",
+          "http_status": 200,
+          "line_count": 80,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/external-secrets/external-secrets/96634cd3c5949acb12dcd7cea7302b28527c5676/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/external-secrets/external-secrets/96634cd3c5949acb12dcd7cea7302b28527c5676/LICENSE",
+          "path": "sources/snapshots/external-secrets--external-secrets-license.txt",
+          "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+          "http_status": 200,
+          "line_count": 202,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/external-secrets/external-secrets.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n96634cd3c5949acb12dcd7cea7302b28527c5676\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "external-secrets--external-secrets-axis-1",
+          "field": "decision_axis_1",
+          "statement": "External Secrets Operator is a Kubernetes operator that integrates external secret management systems like AWS Secrets Manager, HashiCorp Vault, [Google Secrets",
+          "upstream_url": "https://raw.githubusercontent.com/external-secrets/external-secrets/96634cd3c5949acb12dcd7cea7302b28527c5676/README.md",
+          "version_or_commit": "96634cd3c5949acb12dcd7cea7302b28527c5676",
+          "checked_at": "2026-11-21T21:18:14.227437+08:00",
+          "snapshot_path": "sources/snapshots/external-secrets--external-secrets-readme.txt",
+          "line_start": 15,
+          "line_end": 18,
+          "upstream_excerpt": "**External Secrets Operator** is a Kubernetes operator that integrates external\nsecret management systems like [AWS Secrets\nManager](https://aws.amazon.com/secrets-manager/), [HashiCorp\nVault](https://www.vaultproject.io/), [Google Secrets",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "external-secrets--external-secrets-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/external-secrets/external-secrets/96634cd3c5949acb12dcd7cea7302b28527c5676/LICENSE",
+          "version_or_commit": "96634cd3c5949acb12dcd7cea7302b28527c5676",
+          "checked_at": "2026-11-21T21:18:14.227437+08:00",
+          "snapshot_path": "sources/snapshots/external-secrets--external-secrets-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/external-secrets--external-secrets-observation.json"
+    },
+    {
+      "name": "gopass",
+      "repository": "gopasspw/gopass",
+      "url": "https://github.com/gopasspw/gopass",
+      "clone_url": "https://github.com/gopasspw/gopass.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:18:15.706699+08:00",
+      "version_or_commit": "5f4d4032405055d6b842d3148b805950a97b2da6",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/gopasspw/gopass/5f4d4032405055d6b842d3148b805950a97b2da6/README.md",
+          "final_url": "https://raw.githubusercontent.com/gopasspw/gopass/5f4d4032405055d6b842d3148b805950a97b2da6/README.md",
+          "path": "sources/snapshots/gopasspw--gopass-readme.txt",
+          "sha256": "142a1abd7958112703ecfda77b7a90c0fe30703ef77fd20755094b88f8df2c5b",
+          "http_status": 200,
+          "line_count": 236,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/gopasspw/gopass/5f4d4032405055d6b842d3148b805950a97b2da6/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/gopasspw/gopass/5f4d4032405055d6b842d3148b805950a97b2da6/LICENSE",
+          "path": "sources/snapshots/gopasspw--gopass-license.txt",
+          "sha256": "cc7596855388f462cdbdd740381c32fedf4077a1999551d895a69c14f5088a6b",
+          "http_status": 200,
+          "line_count": 9,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/gopasspw/gopass.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n5f4d4032405055d6b842d3148b805950a97b2da6\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "gopasspw--gopass-axis-1",
+          "field": "decision_axis_1",
+          "statement": "> The slightly more awesome standard UNIX password manager for teams.",
+          "upstream_url": "https://raw.githubusercontent.com/gopasspw/gopass/5f4d4032405055d6b842d3148b805950a97b2da6/README.md",
+          "version_or_commit": "5f4d4032405055d6b842d3148b805950a97b2da6",
+          "checked_at": "2026-11-21T21:18:15.706699+08:00",
+          "snapshot_path": "sources/snapshots/gopasspw--gopass-readme.txt",
+          "line_start": 15,
+          "line_end": 15,
+          "upstream_excerpt": "> The slightly more awesome standard UNIX password manager for teams.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gopasspw--gopass-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Gopass is a drop-in replacement for pass, the standard UNIX password manager. By default your credentials are encrypted with GPG and versioned in git. This can be customized easily. Other backends for\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/gopasspw/gopass/5f4d4032405055d6b842d3148b805950a97b2da6/README.md",
+          "version_or_commit": "5f4d4032405055d6b842d3148b805950a97b2da6",
+          "checked_at": "2026-11-21T21:18:15.706699+08:00",
+          "snapshot_path": "sources/snapshots/gopasspw--gopass-readme.txt",
+          "line_start": 25,
+          "line_end": 27,
+          "upstream_excerpt": "Gopass is a drop-in replacement for pass, the standard UNIX password manager.\nBy default your credentials are encrypted with GPG and versioned in git. This can be customized easily.\nOther backends for encryption (e.g. age) and storage (e.g. fossil) are also available.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gopasspw--gopass-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/gopasspw/gopass/5f4d4032405055d6b842d3148b805950a97b2da6/LICENSE",
+          "version_or_commit": "5f4d4032405055d6b842d3148b805950a97b2da6",
+          "checked_at": "2026-11-21T21:18:15.706699+08:00",
+          "snapshot_path": "sources/snapshots/gopasspw--gopass-license.txt",
+          "line_start": 5,
+          "line_end": 5,
+          "upstream_excerpt": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/gopasspw--gopass-observation.json"
+    },
+    {
+      "name": "Conjur",
+      "repository": "cyberark/conjur",
+      "url": "https://github.com/cyberark/conjur",
+      "clone_url": "https://github.com/cyberark/conjur.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:18:18.160284+08:00",
+      "version_or_commit": "bfc444df74b7588d23b0ab8d4070e0b12e47ce80",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/cyberark/conjur/bfc444df74b7588d23b0ab8d4070e0b12e47ce80/README.md",
+          "final_url": "https://raw.githubusercontent.com/cyberark/conjur/bfc444df74b7588d23b0ab8d4070e0b12e47ce80/README.md",
+          "path": "sources/snapshots/cyberark--conjur-readme.txt",
+          "sha256": "eeaf2c66bfdeec9d8cf4287aca6221d2bd5174c8c79cf29ea73402578e7b64b5",
+          "http_status": 200,
+          "line_count": 210,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/cyberark/conjur/bfc444df74b7588d23b0ab8d4070e0b12e47ce80/LICENSE.md",
+          "final_url": "https://raw.githubusercontent.com/cyberark/conjur/bfc444df74b7588d23b0ab8d4070e0b12e47ce80/LICENSE.md",
+          "path": "sources/snapshots/cyberark--conjur-license.txt",
+          "sha256": "446e755fae55ff034bbb21be44670b5f116c2b2667947e7036f2bfe6632539a8",
+          "http_status": 200,
+          "line_count": 163,
+          "upstream_filename": "LICENSE.md"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/cyberark/conjur.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nbfc444df74b7588d23b0ab8d4070e0b12e47ce80\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "cyberark--conjur-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Do NOT lose the data key, or all the encrypted data will be unrecoverable.",
+          "upstream_url": "https://raw.githubusercontent.com/cyberark/conjur/bfc444df74b7588d23b0ab8d4070e0b12e47ce80/README.md",
+          "version_or_commit": "bfc444df74b7588d23b0ab8d4070e0b12e47ce80",
+          "checked_at": "2026-11-21T21:18:18.160284+08:00",
+          "snapshot_path": "sources/snapshots/cyberark--conjur-readme.txt",
+          "line_start": 158,
+          "line_end": 158,
+          "upstream_excerpt": "Do NOT lose the data key, or all the encrypted data will be unrecoverable.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "cyberark--conjur-license",
+          "field": "license_model",
+          "statement": "LGPL-3.0 server; Apache-2.0 clients/extensions; commercial licenses also offered",
+          "upstream_url": "https://raw.githubusercontent.com/cyberark/conjur/bfc444df74b7588d23b0ab8d4070e0b12e47ce80/LICENSE.md",
+          "version_or_commit": "bfc444df74b7588d23b0ab8d4070e0b12e47ce80",
+          "checked_at": "2026-11-21T21:18:18.160284+08:00",
+          "snapshot_path": "sources/snapshots/cyberark--conjur-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "GNU Lesser General Public License\n=================================\n\n_Version 3, 29 June 2007_  \n_Copyright \u00a9 2007 Free Software Foundation, Inc. &lt;<http://fsf.org/>&gt;_\n\nEveryone is permitted to copy and distribute verbatim copies\nof this license document, but changing it is not allowed.\n\n\nThis version of the GNU Lesser General Public License incorporates\nthe terms and conditions of version 3 of the GNU General Public",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/cyberark--conjur-observation.json"
+    }
+  ],
+  "checked_at": "2026-11-21T21:30:04.060605+08:00",
+  "review_round": "narrow_remediation"
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "openbao/openbao",
+  "checked_at": "2026-11-21T21:18:07.344239+08:00",
+  "revision": "a943844dae65dcdaa031cd739b7545250578693d",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/openbao/openbao.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\na943844dae65dcdaa031cd739b7545250578693d\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/openbao/openbao/a943844dae65dcdaa031cd739b7545250578693d/README.md",
+      "final_url": "https://raw.githubusercontent.com/openbao/openbao/a943844dae65dcdaa031cd739b7545250578693d/README.md",
+      "path": "sources/snapshots/openbao--openbao-readme.txt",
+      "sha256": "d0cff252352ee71e85b9bbca2d7567fe980d8579497f40280d0833a0170ea8b3",
+      "http_status": 200,
+      "line_count": 143,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/openbao/openbao/a943844dae65dcdaa031cd739b7545250578693d/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/openbao/openbao/a943844dae65dcdaa031cd739b7545250578693d/LICENSE",
+      "path": "sources/snapshots/openbao--openbao-license.txt",
+      "sha256": "d6b1a865f1c8c697d343bd4e0ce61025f91898486a1f00d727f32e8644af77d3",
+      "http_status": 200,
+      "line_count": 365,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

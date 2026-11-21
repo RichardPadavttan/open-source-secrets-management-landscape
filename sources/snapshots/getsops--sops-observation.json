@@ -1,0 +1,38 @@
+{
+  "repository": "getsops/sops",
+  "checked_at": "2026-11-21T21:18:00.075569+08:00",
+  "revision": "9aa10f12bcd82400b7eb73331dd7a87a93bb17f7",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/getsops/sops.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n9aa10f12bcd82400b7eb73331dd7a87a93bb17f7\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/getsops/sops/9aa10f12bcd82400b7eb73331dd7a87a93bb17f7/README.rst",
+      "final_url": "https://raw.githubusercontent.com/getsops/sops/9aa10f12bcd82400b7eb73331dd7a87a93bb17f7/README.rst",
+      "path": "sources/snapshots/getsops--sops-readme.txt",
+      "sha256": "63cb0a462ce23574365c0b692aa09ea2f632f4b4df2b5f4186d8c004b57e3440",
+      "http_status": 200,
+      "line_count": 60,
+      "upstream_filename": "README.rst"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/getsops/sops/9aa10f12bcd82400b7eb73331dd7a87a93bb17f7/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/getsops/sops/9aa10f12bcd82400b7eb73331dd7a87a93bb17f7/LICENSE",
+      "path": "sources/snapshots/getsops--sops-license.txt",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "http_status": 200,
+      "line_count": 373,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}
