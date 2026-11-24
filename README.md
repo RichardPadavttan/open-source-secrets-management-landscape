@@ -1,6 +1,5 @@
 # Open-Source Secrets Management Landscape
 
-
 > **Decision:** Use this landscape to choose a secret-delivery pattern per consumer and document its root of trust; skip it if one vault product is expected to solve human, repository, CI, Kubernetes, and runtime needs identically.
 >
 > **For:** developers, platform engineers, and operators designing secret custody and delivery  ·  **Not for:** teams without rotation and recovery ownership or seeking a popularity ranking
@@ -10,7 +9,6 @@ This is a non-commercial, source-traceable decision guide. It normalizes upstrea
 **Start here:** [Download the secret delivery boundary ledger](assets/secret-plaintext-boundary-map.csv) — twelve projects, located upstream evidence, and explicit unknowns.
 
 ## Choose by workload
-
 
 - Human credentials: Vaultwarden, Bitwarden Server, Passbolt, or Psono, after checking edition and client compatibility.
 - Reviewable encrypted configuration: SOPS or age; gopass for Git-backed team CLI workflows.
@@ -24,13 +22,11 @@ Human vaults, encrypted files and runtime servers have different roots. OpenBao 
 
 ## Plaintext-hop map
 
-
 - **Human vaults** — Vaultwarden, Bitwarden Server, Passbolt, and Psono serve people/devices; account recovery and client compatibility dominate.
 - **Files and Git** — SOPS encrypts selected structured values, age is a primitive, and gopass combines encryption with Git. None supplies dynamic leases by itself.
 - **Kubernetes delivery** — Sealed Secrets stores ciphertext decryptable by a cluster controller; External Secrets Operator synchronizes from an external provider. Their disaster-recovery roots differ.
 - **Runtime secret servers** — OpenBao and Conjur authenticate workloads and centralize policy; OpenBao also supplies documented dynamic engines; bootstrap and HA are core design work.
 - **Developer platform** — Infisical organizes projects/environments and delivery; distinguish MIT code from the separately licensed ee directories.
-
 
 ## Secret delivery boundary ledger
 
@@ -53,9 +49,7 @@ Values are short excerpts from the frozen upstream README, not feature-test scor
 
 ## Keep the authority path explicit
 
-
 Draw the secret path from generation to consumer and mark every plaintext hop, cache, log, backup, and human recovery step. Rotate one canary secret, revoke one identity, lose one node, and restore one encrypted backup. Never store the only decryptor beside the ciphertext it protects.
-
 
 ## Adoption notes by project
 
