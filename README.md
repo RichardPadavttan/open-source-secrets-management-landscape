@@ -1,8 +1,9 @@
 # Open-Source Secrets Management Landscape
 
-> **Decision:** Choose a pattern per consumer—human vault, encrypted file, Kubernetes envelope, external-secret synchronizer, or runtime secret server—and document its root of trust.
 
-**For:** Developers and operators deciding how humans, repositories, CI, Kubernetes, and running services receive secrets.  
+> **Decision:** Use this landscape to choose a secret-delivery pattern per consumer and document its root of trust; skip it if one vault product is expected to solve human, repository, CI, Kubernetes, and runtime needs identically.
+>
+> **For:** developers, platform engineers, and operators designing secret custody and delivery  ·  **Not for:** teams without rotation and recovery ownership or seeking a popularity ranking
 
 This is a non-commercial, source-traceable decision guide. It normalizes upstream declarations; it does not claim that repository reachability proves functionality, security, maintenance, or fitness.
 
@@ -153,6 +154,12 @@ Draw the secret path from generation to consumer and mark every plaintext hop, c
 
 Operational secret delivery and trust roots, not an AI-agent policy evaluator or a universal IAM solution.
 
+## Adjacent guides
+
+- [self-hosted-git-forge-matrix](https://github.com/Rubio199321/self-hosted-git-forge-matrix) — Use it when the consumers are a self-hosted forge, CI workers, package registry, or deployment system.
+- [self-hosted-container-management-map](https://github.com/Hervieux39AC/self-hosted-container-management-map) — Use it when secrets must reach containerized workloads through a recoverable control plane.
+- [encrypted-backup-tool-selector](https://github.com/Anguianodd/encrypted-backup-tool-selector) — Use it when secret-store data and recovery keys require a separate encrypted backup plan.
+
 ## Located sources and update policy
 
 [`sources.json`](sources.json) binds each cited declaration to a commit, document, exact line range and local snapshot hash. [`assets/projects.json`](assets/projects.json) holds the normalized roles and decision axes. Current HEAD reachability is recorded separately; it is not a maintenance or security assessment. Licensing is version- and directory-specific. Re-read the selected release before adoption.
@@ -165,3 +172,5 @@ python3 scripts/verify_sources.py --online
 ```
 
 These checks validate source binding, excerpts, hashes, language, the decision asset and nonempty public content. They do not certify feature behavior, migration success or restore success. No popularity score, paid placement or affiliate ranking is used. Restricted-license and historical examples are explicit contrasts, not silently recommended open-source defaults.
+
+If this saved you a decision, star the repo — it is how the next reader finds it.
